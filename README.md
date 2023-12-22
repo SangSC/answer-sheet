@@ -1,5 +1,4 @@
-# [Answer sheet](https://sangsc.github.io/) 
-# Answer of the test by Welly
+# [Answers of the test by Welly](https://sangsc.github.io/) 
 
 The answers to the questions can be selected from the sidebar.
 
