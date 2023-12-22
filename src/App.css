@@ -1,38 +1,192 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #eaecef;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 70px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  width: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  padding: 10px;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  background-color: #011627;
+  height: 60px;
+  z-index: 1;
+}
+
+.sidenav {
+  width: 300px;
+  background-color: #011627;
+  position: absolute;
+  height: 95vh;
+  padding: 0 30px;
+  left: -100%;
+  transition: all 0.3s;
+}
+
+.sidenav.active {
+  left: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+ul li a {
+  font-size: 16px;
+  color: #eaecef;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+ul li a:hover,
+ul li a.active {
+  background-color: #172b4d;
+}
+
+header svg {
+  font-size: 40px;
+  color: #eaecef;
+}
+
+header svg:hover {
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: #172b4d;
+}
+
+.main {
+  height: 90vh;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
 }
 
-.App-link {
-  color: #61dafb;
+.division {
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.half {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow: scroll;
+  box-sizing: border-box;
+  background-color: rgb(40, 44, 52);
+  border: 2px solid rgb(211, 214, 222);
+  border-radius: 10px;
+}
+
+.left {
+  flex: 0 0 50%;
+  box-sizing: border-box;
+}
+
+.right {
+  flex: 0 0 50%;
+  box-sizing: border-box;
+}
+
+.bottom {
+  height: 250px;
+  display: flex;
+}
+
+.title {
+  height: 40px;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 10px;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-items: center;
+  background-color: #3a404d;
+}
+
+.title p {
+  font-size: 14px;
+}
+
+.content {
+  padding: 25px;
+  height: 500px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #eaecef;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #011627;
+}
+
+button:hover {
+  background-color: #172b4d;
+}
+
+.increment {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #eaecef;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #067529;
+}
+
+.increment:hover {
+  background-color: #1f8a3f;
+}
+
+.decrement {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #eaecef;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #a30808;
+}
+
+.decrement:hover {
+  background-color: #c01f1f;
 }
