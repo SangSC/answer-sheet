@@ -53,11 +53,7 @@ function ConditionalRendering({ isLoggedIn }) {
 function ConditionalRendering({ isLoggedIn }) {
   return (
     <div>
-      {isLoggedIn ? (
-        <p>Welcome back!</p>
-      ) : (
-        <p>Please log in.</p>
-      )}
+    {isLoggedIn ? <p>Welcome back!</p> : <p>Please log in.</p>}
     </div>
   );
 }
