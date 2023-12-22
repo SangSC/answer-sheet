@@ -1,4 +1,3 @@
-![image](https://github.com/SangSC/answer-sheet/assets/143479344/c5d31cc6-8c41-455d-9156-cc4762165e7d)
 # [Answer sheet](https://sangsc.github.io/) 
 # Answer of the test by Welly
 
