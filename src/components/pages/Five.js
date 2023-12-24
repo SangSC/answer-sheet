@@ -17,7 +17,7 @@ export default function Five() {
     >
       <div>
         <h1 className="text-center">{count}</h1>
-        <div className="flex gap-4">
+        <div className="flex gap-4 justify-center">
           <button onClick={handleDecrement} className="decrement">
             Decrement
           </button>

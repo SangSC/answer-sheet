@@ -64,7 +64,7 @@ console.log(reverseString("Hello")); // 預期輸出: "olleH”
         </div>
       </div>
       {/* bottom */}
-      <div>
+      <div className="bottom">
         <button onClick={handleButtonClick}>Click Me</button>
         {/* 在這裡顯示結果，可以根據實際需要放置在不同的區域 */}
         <p id="result">{result}</p>

@@ -67,10 +67,10 @@ function ConditionalRendering({ isLoggedIn }) {
         </div>
       </div>
       {/* bottom */}
-      <div>
+      <div className="bottom">
         {isLoggedIn ? <p>Welcome back!</p> : <p>Please log in.</p>}
         <button onClick={handleLoginToggle}>
-          {isLoggedIn ? "Login" : "Logout"}
+          {isLoggedIn ? "Logout" : "Login"}
         </button>{" "}
       </div>
     </section>
