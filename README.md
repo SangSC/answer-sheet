@@ -2,7 +2,7 @@
 
 The answers to the questions can be selected from the sidebar.
 
-![pre](https://i.imgur.com/ThpKI2o.png)
+![pre](https://i.imgur.com/QSdC4oW.png)
 
 
 
