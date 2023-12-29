@@ -12,6 +12,7 @@ const Three = () => {
             <p>Question</p>
           </div>
           <SyntaxHighlighter
+            showLineNumbers
             language="javascript"
             style={atomOneDark}
             customStyle={{
@@ -43,6 +44,7 @@ function formatName(firstName, lastName) {
             <p>Answer</p>
           </div>
           <SyntaxHighlighter
+            showLineNumbers
             language="javascript"
             style={atomOneDark}
             customStyle={{
@@ -50,8 +52,7 @@ function formatName(firstName, lastName) {
               height: "350px",
             }}
           >
-            {`
-// 使用 Template literals 格式化名字
+            {`// 使用 Template literals 格式化名字
 function formatName(firstName, lastName) {
   return \`\${firstName} \${lastName}\`;
 }

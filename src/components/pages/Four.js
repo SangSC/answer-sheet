@@ -18,6 +18,7 @@ const Four = () => {
             <p>Question</p>
           </div>
           <SyntaxHighlighter
+            showLineNumbers
             language="javascript"
             style={atomOneDark}
             customStyle={{
@@ -41,7 +42,8 @@ function ConditionalRendering({ isLoggedIn }) {
             <p>Answer</p>
           </div>
           <SyntaxHighlighter
-            language="javascript"
+            showLineNumbers
+            language="jsx"
             style={atomOneDark}
             customStyle={{
               padding: "25px",

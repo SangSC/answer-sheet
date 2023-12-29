@@ -20,6 +20,7 @@ const One = () => {
             <p>Question</p>
           </div>
           <SyntaxHighlighter
+            showLineNumbers
             language="javascript"
             style={atomOneDark}
             customStyle={{
@@ -43,6 +44,7 @@ console.log(reverseString("Hello")); // 預期輸出: "olleH”
             <p>Answer</p>
           </div>
           <SyntaxHighlighter
+            showLineNumbers
             language="javascript"
             style={atomOneDark}
             customStyle={{

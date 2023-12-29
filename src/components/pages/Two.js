@@ -23,6 +23,7 @@ const Two = () => {
             <p>Question</p>
           </div>
           <SyntaxHighlighter
+            showLineNumbers
             language="javascript"
             style={atomOneDark}
             customStyle={{
@@ -51,6 +52,7 @@ console.log(filterNumbersGreaterThanFive(numbers)); // 預期輸出: [8, 10, 7]
             <p>Answer</p>
           </div>
           <SyntaxHighlighter
+            showLineNumbers
             language="javascript"
             style={atomOneDark}
             customStyle={{
