@@ -1,13 +1,10 @@
-# [Answers of the test by Welly](https://sangsc.github.io/answer-sheet/) 
+# [Answers of the test by Welly](https://sangsc.github.io/answer-sheet/)
 
 The answers to the questions can be selected from the sidebar.
 
-![pre](https://i.imgur.com/ThpKI2o.png)
+![pre](https://i.imgur.com/QSdC4oW.png)
 
-
-
-
---------------------------
+---
 
 # Getting Started with Create React App
 

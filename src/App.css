@@ -95,7 +95,7 @@ header svg:hover {
 }
 
 .half {
-  width: 600px;
+  max-width: 600px;
   height: 400px;
   display: flex;
   justify-content: space-between;
@@ -213,5 +213,11 @@ button:hover {
     flex-direction: column;
     margin-left: 50%;
     transform: translateX(-50%);
+  }
+}
+
+@media screen and (min-width: px) {
+  .container {
+    max-width: 2000px; /* 螢幕超過 2000px 時，調整容器寬度 */
   }
 }

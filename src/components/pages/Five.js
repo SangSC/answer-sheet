@@ -12,12 +12,12 @@ export default function Five() {
 
   return (
     <div
-      className="flex flex-col content-center	 justify-center	"
-      style={{ height: "100vh" }}
+      className="flex flex-col content-center	 justify-center"
+      style={{ height: "70vh", minWidth: "500px" }}
     >
       <div>
         <h1 className="text-center">{count}</h1>
-        <div className="flex gap-4 justify-center">
+        <div className="flex gap-4 justify-center sm:flex-row gap-x-3 mx-auto">
           <button onClick={handleDecrement} className="decrement">
             Decrement
           </button>
