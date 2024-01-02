@@ -11,7 +11,7 @@ const Two = () => {
       filterNumbersGreaterThanFive,
       [2, 8, 4, 10, 1, 7]
     );
-    setResult(filteredNumbers.toString()); // 将数组转换为字符串
+    setResult(filteredNumbers.toString());
   };
 
   return (
@@ -72,7 +72,6 @@ console.log(filterNumbersGreaterThanFive(numbers)); // 預期輸出: [8, 10, 7]`
       {/* bottom */}
       <div className="bottom">
         <button onClick={handleButtonClick}>Click Me</button>
-        {/* 在這裡顯示結果，可以根據實際需要放置在不同的區域 */}
         <p id="result">{result}</p>
       </div>
     </section>
